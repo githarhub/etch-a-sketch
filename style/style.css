@@ -1,0 +1,55 @@
+.whole-sketch-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.whole-sketch-container {
+    margin-top: 50px;
+}
+
+.wall-of-sketch {
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(125, 98, 249);
+}
+
+.actual-sketch {
+    width: 450px;
+    height: 450px;
+}
+.input-container {
+    display: flex;
+    align-items: stretch;
+    gap: 20px;
+}
+
+.input-blocks {
+    width: 150px;
+    font-size: 20px;
+    color: rgb(125, 98, 249);
+    padding: 0;
+    margin: 0;
+    border-color: rgb(125, 98, 249);
+    border-width: 3px;
+}
+
+.input-blocks:hover {
+    border-color: rgb(89, 51, 255);;
+}
+
+.input-blocks-button, .sketch-clean-button{
+    width: 150px;
+    font-size: 20px;
+    color: rgb(125, 98, 249);
+    background-color: rgb(255, 255, 255);
+    border-width: 3px;
+    border-color: rgb(125, 98, 249);
+}
+
+.input-blocks-button:hover, .sketch-clean-button:hover {
+    background-color: rgb(125, 98, 249);
+    color: rgb(255, 255, 255);
+}
