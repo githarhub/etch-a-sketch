@@ -1,13 +1,16 @@
+
 .whole-sketch-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 50px;
-}
-
-.whole-sketch-container {
-    margin-top: 50px;
+    gap: 20px;
+    width: 700px;
+    background-color: rgb(86, 134, 255);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 20px;
 }
 
 .wall-of-sketch {
@@ -17,8 +20,12 @@
 }
 
 .actual-sketch {
-    width: 450px;
-    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
 }
 .input-container {
     display: flex;
@@ -52,4 +59,17 @@
 .input-blocks-button:hover, .sketch-clean-button:hover {
     background-color: rgb(125, 98, 249);
     color: rgb(255, 255, 255);
+}
+
+.row-blocks {
+    display: flex;
+    flex-grow: 1;
+    align-items: stretch;
+}
+
+.blocks-in-row {
+    flex-grow: 1;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(0,0,0);
 }
